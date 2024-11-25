@@ -54,9 +54,9 @@ The graph below compares the rewards achieved by each policy:
 
 ![Reward Comparison](https://raw.githubusercontent.com/CenterAdvancedAnalytics/centeradvancedanalytics.github.io/refs/heads/main/_posts/images/2024-11-25-q-learning/comparison.png "Reward Comparison")
 
-- Q-Learning (Green) outperforms other approaches with a mean reward of -260.41, showcasing its ability to dynamically adjust to demand.
-- The (s,S) Policy (Blue) achieves a mean reward of -308.23, reflecting its reliability in structured inventory control.
-- The Random Policy (Red) lags significantly, with a mean reward of -429.91, underscoring the value of structured decision-making.
+- Q-Learning (Green) outperforms other approaches with a mean reward of -262.08, showcasing its ability to dynamically adjust to demand.
+- The (s,S) Policy (Blue) achieves a mean reward of -308.25, reflecting its reliability in structured inventory control.
+- The Random Policy (Red) lags significantly, with a mean reward of -429.93, underscoring the value of structured decision-making.
 
 Q-Learning’s adaptability enables it to minimize costs in environments with high variability. However, its computational demands and the need for extensive training episodes make it less suited for smaller-scale operations or highly predictable demand.
 
