@@ -20,7 +20,7 @@ The demand graph below illustrates the interplay of seasonal and random fluctuat
 ![Demand Series Graph](https://raw.githubusercontent.com/CenterAdvancedAnalytics/centeradvancedanalytics.github.io/refs/heads/main/_posts/images/2024-11-25-q-learning/demand_seasonality_graph.png "Demand Series Graph")
 
 ### 3. The $(s,S)$ Policy
-The $(s,S)$ policy is a widely used inventory control strategy, where restocking occurs whenever the inventory level falls below a lower threshold, s. When restocked, the stock is replenished up to an upper threshold, S.
+The $(s,S)$ policy is a widely used inventory control strategy, where restocking occurs whenever the inventory level falls below a lower threshold, $s$. When restocked, the stock is replenished up to an upper threshold, $S$.
 
 Introduced in the mid-20th century, the $(s,S)$ policy has remained a cornerstone of inventory management due to its simplicity and proven effectiveness in structured and predictable environments. Its rule-based framework makes it especially well-suited for scenarios where demand variability is low or moderately predictable.
 
@@ -30,7 +30,7 @@ The graph below illustrates the stock levels over time under the $(s,S)$ policy:
 
 ![(s,S) Example Graph](https://raw.githubusercontent.com/CenterAdvancedAnalytics/centeradvancedanalytics.github.io/refs/heads/main/_posts/images/2024-11-25-q-learning/s_S_example.png "(s,S) Example Graph")
 
-The system triggers replenishment when inventory dips below the threshold s, restoring it to S at the start of the next period of time. This structured approach minimizes costs associated with stockouts and overstocking but may struggle to adjust dynamically to unforeseen demand patterns.
+The system triggers replenishment when inventory dips below the threshold $s$, restoring it to $S$ at the start of the next period of time. This structured approach minimizes costs associated with stockouts and overstocking but may struggle to adjust dynamically to unforeseen demand patterns.
 
 ### 4. Q-Learning for Inventory Management
 Q-Learning, a reinforcement learning algorithm, dynamically learns the optimal actions for restocking. By evaluating restocking costs, stockout penalties, and future demand, it adapts to minimize overall costs while handling fluctuations in demand. This algorithm represents a leap toward intelligent inventory systems, capable of adapting to ever-changing demand patterns. By learning from experience, it builds dynamic policies that go beyond static thresholds.
