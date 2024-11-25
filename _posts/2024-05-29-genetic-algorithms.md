@@ -6,12 +6,13 @@ An optimization problem, whatever it may be, is formulated by considering the fo
 
 One way to solve any optimization problem is brute force. That is, by testing candidate solutions in the feasible set and selecting the one that achieves the best performance when evaluated against the objective function.
 
-**Example 1.** *Consider the problem of minimizing the function (x − 3)² + (y − 7)² for positive values of x and y such that x + y ≤ 10. The objective function is f(x, y) = (x − 3)² + (y − 7)², the control variables are x and y, and the constraints on these variables are x ≥ 0, y ≥ 0, and x + y ≤ 10.*
+**Example 1.** *Consider the problem of minimizing the function $(x − 3)^2 + (y − 7)^2$ for positive values of $x$ and $y$ such that $x + y \leq 10$. The objective function is $f(x, y) = (x − 3)^2 + (y − 7)^2$, the control variables are $x$ and $y$, and the constraints on these variables are $x \geq 0$, $y \geq 0$, and $x + y \leq 10$.*
 
 In mathematical terms, this problem is nothing more than
 
-![Example 1](https://raw.githubusercontent.com/CenterAdvancedAnalytics/centeradvancedanalytics.github.io/refs/heads/main/_posts/images/2024-05-29-genetic-algorithms/example_1.png "Example 1")
- 
+$$
+(x^{*}, y^{*}) = \argmax_{x,y}\left\{\right\}
+$$ 
 *In this case, the objective function is not linear, and finding its solution is not immediate for someone without basic knowledge of calculus. Under these circumstances, it is reasonable to use the brute force method. To do this, we randomly select some values for the pair (x, y), say {(1, 6), (5, 3), (−1, 9)}, and check if they belong to the feasible set. In this case, the first two candidates meet the constraints while the third one does not, so the pair (−1, 9) is discarded, and thus we define S = {(1, 6), (5, 3)} as the set of feasible candidate solutions. Finally, we evaluate each solution in S to see which one gives us the smallest value. In this case, f(1, 6) = 5 is the best solution, since f(5, 3) = 20 > 5. Of course, nothing guarantees that this solution corresponds to the global minimum. In fact, the argument that minimizes f(x, y) in the feasible space is (3, 7).*
 
 A genetic algorithm is an intelligent way to apply the brute force method, using a “bio-inspired” strategy to probe values. In this sense, it is an algorithm that recursively explores the feasible space, using information from the solutions obtained in the previous step to generate new solutions. It is bio-inspired because it resembles the procreation mechanism of biological organisms. From this perspective, the parents (previous solutions) produce offspring (current solutions) under certain crossover rules (combination of solutions) and mutation (alterations of the current solutions).
