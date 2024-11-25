@@ -13,7 +13,7 @@ The objective of this analysis is to evaluate:
 ### 2. Demand Patterns
 The simulated demand data includes both a seasonal component and a random component. The seasonal component captures predictable fluctuations such as holidays or production cycles, while the random component accounts for unexpected demand shocks, reflecting real-world uncertainties.
 
-$$\forall i = 0, 1, 2, \dotsc : \text{Demand}_{i} = \max \left\(0, \left\lfloor 5 \cdot \cos \left( \left(i + 1\right) \cdot \frac{2 \pi}{24}\right) + 6 + \varepsilon_i \right\rfloor\right\), \quad \varepsilon_i \sim \mathcal{N}(0,1)$$
+$$\forall i = 0, 1, 2,\dotsc : \text{Demand}_{i} = \max \left\(0, \left\lfloor 5 \cdot \cos \left( \left(i + 1\right) \cdot \frac{2 \pi}{24}\right) + 6 + \varepsilon_i \right\rfloor\right\), \quad \varepsilon_i \sim \mathcal{N}(0,1)$$
 
 The demand graph below illustrates the interplay of seasonal and random fluctuations:
 
