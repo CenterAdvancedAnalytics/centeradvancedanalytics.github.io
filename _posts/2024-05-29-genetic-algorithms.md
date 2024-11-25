@@ -11,7 +11,7 @@ One way to solve any optimization problem is brute force. That is, by testing ca
 In mathematical terms, this problem is nothing more than
 
 $$
-(x^{*}, y^{*}) = \argmax_{x,y}\left\{\right\}
+(x^*, y^*) = \argmax_{x,y}\left\{1,2\right\}
 $$ 
 *In this case, the objective function is not linear, and finding its solution is not immediate for someone without basic knowledge of calculus. Under these circumstances, it is reasonable to use the brute force method. To do this, we randomly select some values for the pair (x, y), say {(1, 6), (5, 3), (−1, 9)}, and check if they belong to the feasible set. In this case, the first two candidates meet the constraints while the third one does not, so the pair (−1, 9) is discarded, and thus we define S = {(1, 6), (5, 3)} as the set of feasible candidate solutions. Finally, we evaluate each solution in S to see which one gives us the smallest value. In this case, f(1, 6) = 5 is the best solution, since f(5, 3) = 20 > 5. Of course, nothing guarantees that this solution corresponds to the global minimum. In fact, the argument that minimizes f(x, y) in the feasible space is (3, 7).*
 
