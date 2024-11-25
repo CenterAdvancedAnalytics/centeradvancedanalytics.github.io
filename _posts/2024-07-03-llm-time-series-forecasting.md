@@ -1,4 +1,4 @@
-¿Son realmente útiles los modelos de lenguaje para pronosticar series temporales?
+## ¿Son realmente útiles los modelos de lenguaje para pronosticar series temporales?
 
 En un reciente estudio titulado "Are Language Models Actually Useful for Time Series Forecasting?", compartido en arXiv por investigadores de la universidad de Washington y la Universidad de Virginia, se examina críticamente el papel de los modelos de lenguaje grandes (LLMs) en la predicción de series temporales.
 
