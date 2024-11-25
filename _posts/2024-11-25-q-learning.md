@@ -1,4 +1,4 @@
-## Optimizing Inventory Management with Q-Learning and the $(s,S)$ Policy
+## Optimizing Inventory Management with Q-Learning and the \((s,S)\) Policy
 Inventory management is one of the most critical components of supply chain operations. From managing costs to handling fluctuating demand, businesses continuously search for strategies to optimize stock levels. In this article, we compare two approaches to inventory control — Q-Learning and the $(s,S)$ Policy — with a Random Policy serving as a reference point for comparison.
 
 ### 1. Introduction
