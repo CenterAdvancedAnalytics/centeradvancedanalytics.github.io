@@ -474,7 +474,8 @@ plt.show()
 ```
 
 ### 9. References
-- Geevers, K. (2020). *Deep reinforcement learning in inventory management* [Master's thesis, University of Twente]. University of Twente Student Theses. https://essay.utwente.nl/85432/1/Geevers_MA_BMS.pdf
+- Geevers, K. (2020). *Deep reinforcement learning in inventory management* [Master's thesis, University of Twente]. University of Twente Student Theses. [https://essay.utwente.nl/85432/1/Geevers_MA_BMS.pdf](https://essay.utwente.nl/85432/1/Geevers_MA_BMS.pdf)
 - Snyder, L. V., & Shen, Z.-J. M. (2019). *Fundamentals of supply chain theory* (2nd ed.). John Wiley & Sons.
 - Sutton, R. S., & Barto, A. G. (2020). *Reinforcement learning: An introduction* (2nd ed.). MIT Press.
+
 
