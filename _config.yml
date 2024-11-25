@@ -4,10 +4,10 @@ description: "Creating value with Data and Advanced Analytics." # This will show
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
-email: "example@mail.com"
+#email: "example@mail.com"
 #twitter_username: "twitteruser"
 #github_username: "githubuser"
-#linkedin_username: "linkedinuser"
+linkedin_username: "https://www.linkedin.com/company/center-for-advanced-analytics/"
 #facebook_username: username
 #flickr_username: username
 #instagram_username: username
@@ -20,13 +20,13 @@ email: "example@mail.com"
 #########################################################################################
 theme: "minima"
 
-rss: rss
+#rss: rss
 
 kramdown:
   syntax_highlighter_opts:
     disable: true
 plugins:
-  - jekyll-feed
+  #- jekyll-feed
   - jekyll-sitemap
 
 titles_from_headings:
